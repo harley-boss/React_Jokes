@@ -5,6 +5,9 @@ function MainContent() {
     return (
         <div className="joke-list">
             <Joke joke={{question: "Why did the chicken cross the road?", punchLine: "To get to the other side!"}}/>
+            <Joke joke={{question: "Why did the chicken cross the road?"}}/>
+            <Joke joke={{question: "Why did the chicken cross the road?", punchLine: "To get to the other side!"}}/>
+            <Joke joke={{punchLine: "To get to the other side!"}}/>
         </div>
     )
 }

@@ -11,7 +11,7 @@
   height: 100px;
   color: whitesmoke;
   background-color: #333;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 30px;
   display: flex;
@@ -57,7 +57,7 @@
 .joke-item {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: left;
   padding: 30px 20px 0;
   width: 70%;
   border-bottom: 1px solid #cecece;
